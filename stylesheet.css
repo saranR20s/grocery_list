@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Grenze Gotisch', cursive;
+    background: rgb(255, 165, 0);
+    height: 100%;
+   
+} 
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+    
+     
+}
+.items{
+    font-size: 2.5rem;
+    color: rgb(255, 165, 0);
+    margin-left: 50px;
+
+}
+
+.grocerylist{
+    border: 1px solid black;
+    width: 600px;
+    min-height: 100vh;
+    background-color: white;
+    box-shadow: 10px 10px 24px 0 rgb(0,0,0,0.5);
+     
+}
+
+.grocerylist h1{
+      font-size: 4.0rem;
+      margin-top: 0.2 rem;
+      margin-bottom: 1.2rem;
+
+}
+
+.grocerylist i{
+    font-size: 2rem;
+    color: orange;
+}
+.grocerylist input{
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem ;
+}
+
+
+#allItems h2{ 
+      margin-left: 75px;
+      margin-right: 10px;
+      margin-top: 15px;
+      font-size: 2.0rem;
+}
+
+@media(max-width:480px){
+    .grocerylist h1{
+        font: 2.0rem;
+    }
+    .grocerylist i{
+        font: 1.0rem;
+    }
+    .grocerylist input{
+        font: 1rem;
+    }
+    #allItems h2{
+        margin-left: 50px;
+
+        font: 2.0rem;
+    }
+     
+      
+
+}
+
+
+
+
+ 
+
